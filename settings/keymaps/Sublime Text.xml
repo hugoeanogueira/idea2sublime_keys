@@ -1,13 +1,18 @@
 <keymap version="1" name="Sublime Text" parent="Mac OS X 10.5+">
+  <action id="CheckinProject" />
   <action id="CommentByLineComment">
     <keyboard-shortcut first-keystroke="meta slash" />
     <keyboard-shortcut first-keystroke="meta divide" />
     <keyboard-shortcut first-keystroke="shift meta 7" />
   </action>
+  <action id="CompareTwoFiles" />
   <action id="Console.Execute" />
+  <action id="Debug" />
   <action id="Debugger.EditFrameSource">
     <keyboard-shortcut first-keystroke="f4" />
   </action>
+  <action id="Diff.ShowDiff" />
+  <action id="Diff.ShowSettingsPopup" />
   <action id="DomCollectionControl.Edit">
     <keyboard-shortcut first-keystroke="f4" />
   </action>
@@ -19,7 +24,7 @@
   </action>
   <action id="EditorAddOrRemoveCaret">
     <mouse-shortcut keystroke="shift alt button1" />
-    <mouse-shortcut keystroke="control button1" />
+    <mouse-shortcut keystroke="meta button1" />
   </action>
   <action id="EditorChooseLookupItem" />
   <action id="EditorCloneCaretAbove">
@@ -27,6 +32,9 @@
   </action>
   <action id="EditorCloneCaretBelow">
     <keyboard-shortcut first-keystroke="shift ctrl down" />
+  </action>
+  <action id="EditorDuplicate">
+    <keyboard-shortcut first-keystroke="shift meta d" />
   </action>
   <action id="EditorMoveToPageBottom">
     <keyboard-shortcut first-keystroke="meta page_down" />
@@ -44,6 +52,11 @@
     <keyboard-shortcut first-keystroke="shift meta page_up" />
     <keyboard-shortcut first-keystroke="shift meta up" />
   </action>
+  <action id="EditorToggleCase">
+    <keyboard-shortcut first-keystroke="shift meta u" />
+    <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta u" />
+    <keyboard-shortcut first-keystroke="meta u" second-keystroke="meta l" />
+  </action>
   <action id="EditorUnindentSelection">
     <keyboard-shortcut first-keystroke="shift tab" />
     <keyboard-shortcut first-keystroke="meta alt 8" />
@@ -51,10 +64,17 @@
   <action id="ExternalSystem.OpenConfig">
     <keyboard-shortcut first-keystroke="f4" />
   </action>
+  <action id="FileChooser.GotoDesktop" />
+  <action id="GotoDeclaration">
+    <keyboard-shortcut first-keystroke="meta b" />
+    <mouse-shortcut keystroke="button2" />
+    <mouse-shortcut keystroke="alt button1" />
+  </action>
   <action id="GotoFile">
     <keyboard-shortcut first-keystroke="shift meta o" />
     <keyboard-shortcut first-keystroke="meta t" />
   </action>
+  <action id="GotoSuperMethod" />
   <action id="Images.Thumbnails.EnterAction" />
   <action id="MoveStatementDown" />
   <action id="MoveStatementUp" />
@@ -64,10 +84,19 @@
   <action id="OpenModuleSettings">
     <keyboard-shortcut first-keystroke="f4" />
   </action>
+  <action id="QuickEvaluateExpression">
+    <keyboard-shortcut first-keystroke="meta alt f8" />
+  </action>
   <action id="ResizeToolWindowDown" />
   <action id="ResizeToolWindowLeft" />
   <action id="ResizeToolWindowRight" />
   <action id="ResizeToolWindowUp" />
+  <action id="SelectNextOccurrence">
+    <keyboard-shortcut first-keystroke="ctrl g" />
+    <keyboard-shortcut first-keystroke="meta d" />
+  </action>
+  <action id="SendEOF" />
+  <action id="ShelvedChanges.Diff" />
   <action id="ShowNavBar">
     <keyboard-shortcut first-keystroke="alt home" />
   </action>
