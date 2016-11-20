@@ -1,0 +1,3 @@
+BashSupport
+Docker
+mobi.hsz.idea.gitignore
