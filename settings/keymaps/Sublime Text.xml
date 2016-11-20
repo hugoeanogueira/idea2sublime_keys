@@ -28,13 +28,6 @@
   <action id="EditorCloneCaretBelow">
     <keyboard-shortcut first-keystroke="shift ctrl down" />
   </action>
-  <action id="EditorEnter" />
-  <action id="EditorLineStart">
-    <keyboard-shortcut first-keystroke="home" />
-    <keyboard-shortcut first-keystroke="meta left" />
-    <keyboard-shortcut first-keystroke="ctrl a" />
-    <keyboard-shortcut first-keystroke="enter" />
-  </action>
   <action id="EditorMoveToPageBottom">
     <keyboard-shortcut first-keystroke="meta page_down" />
     <keyboard-shortcut first-keystroke="meta down" />
