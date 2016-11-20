@@ -1,4 +1,9 @@
 <keymap version="1" name="Sublime Text" parent="Mac OS X 10.5+">
+  <action id="CommentByLineComment">
+    <keyboard-shortcut first-keystroke="meta slash" />
+    <keyboard-shortcut first-keystroke="meta divide" />
+    <keyboard-shortcut first-keystroke="shift meta 7" />
+  </action>
   <action id="Console.Execute" />
   <action id="Debugger.EditFrameSource">
     <keyboard-shortcut first-keystroke="f4" />
@@ -45,6 +50,10 @@
   <action id="EditorMoveToPageTopWithSelection">
     <keyboard-shortcut first-keystroke="shift meta page_up" />
     <keyboard-shortcut first-keystroke="shift meta up" />
+  </action>
+  <action id="EditorUnindentSelection">
+    <keyboard-shortcut first-keystroke="shift tab" />
+    <keyboard-shortcut first-keystroke="meta alt 8" />
   </action>
   <action id="ExternalSystem.OpenConfig">
     <keyboard-shortcut first-keystroke="f4" />
