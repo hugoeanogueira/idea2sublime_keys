@@ -1,4 +1,8 @@
 <keymap version="1" name="Sublime Text" parent="Mac OS X 10.5+">
+  <action id="$Delete">
+    <keyboard-shortcut first-keystroke="delete" />
+    <keyboard-shortcut first-keystroke="back_space" />
+  </action>
   <action id="CheckinProject" />
   <action id="CommentByLineComment">
     <keyboard-shortcut first-keystroke="meta slash" />
@@ -15,6 +19,10 @@
   <action id="DomCollectionControl.Edit">
     <keyboard-shortcut first-keystroke="f4" />
   </action>
+  <action id="DomElementsTreeView.DeleteElement">
+    <keyboard-shortcut first-keystroke="delete" />
+    <keyboard-shortcut first-keystroke="back_space" />
+  </action>
   <action id="DomElementsTreeView.GotoDomElementDeclarationAction">
     <keyboard-shortcut first-keystroke="f4" />
   </action>
@@ -30,6 +38,10 @@
   </action>
   <action id="EditorCloneCaretBelow">
     <keyboard-shortcut first-keystroke="shift ctrl down" />
+  </action>
+  <action id="EditorDeleteLine" />
+  <action id="EditorDeleteToLineStart">
+    <keyboard-shortcut first-keystroke="meta back_space" />
   </action>
   <action id="EditorDuplicate">
     <keyboard-shortcut first-keystroke="shift meta d" />
@@ -73,6 +85,10 @@
     <keyboard-shortcut first-keystroke="meta t" />
   </action>
   <action id="GotoSuperMethod" />
+  <action id="GuiDesigner.DeleteGroup">
+    <keyboard-shortcut first-keystroke="delete" />
+    <keyboard-shortcut first-keystroke="back_space" />
+  </action>
   <action id="MoveStatementDown" />
   <action id="MoveStatementUp" />
   <action id="OpenModuleSettings">
@@ -108,6 +124,10 @@
   </action>
   <action id="SwitchUp">
     <keyboard-shortcut first-keystroke="ctrl alt up" />
+  </action>
+  <action id="UsageView.Exclude">
+    <keyboard-shortcut first-keystroke="delete" />
+    <keyboard-shortcut first-keystroke="back_space" />
   </action>
   <action id="Vcs.UpdateProject" />
   <action id="XDebugger.JumpToSource">
